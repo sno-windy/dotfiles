@@ -1,0 +1,16 @@
+[user]
+  name = sno-windy
+  email = souta0829win782@gmail.com
+[url "https://sno-windy:<pass>@github.com/"]
+    insteadOf = https://github.com/
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = false
+[fetch]
+	prune = true
+	parallel = 0
+[http]
+	postBuffer = 524288000
+[checkout]
+	workers = 0
